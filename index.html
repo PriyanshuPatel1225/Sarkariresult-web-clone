@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sarkari Result - Clone</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+    }
+
+    header {
+      background: #aa0033;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    header img {
+      width: 120px;
+      margin: 10px auto;
+      display: block;
+    
+    }
+
+    header h1 {
+      font-size: 28px;
+      margin-bottom: 5px;
+    }
+
+    header p {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background: black;
+    }
+
+    nav a {
+      padding: 12px 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-right: 1px solid #444;
+    }
+
+    nav a:last-child {
+      border-right: none;
+    }
+
+    nav a:hover {
+      background: #b30000;
+    }
+
+    .announcement, .links {
+      text-align: center;
+      padding: 15px;
+    }
+
+    .announcement h2 {
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    .announcement p {
+      color: red;
+      font-weight: bold;
+    }
+
+    .links a {
+      color: blue;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    .job-buttons {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 10px;
+      padding: 20px;
+      background: #fff;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .job-buttons a {
+      text-align: center;
+      color: white;
+      padding: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .green { background: #4CAF50; }
+    .blue { background: #1E3A8A; }
+    .orange { background: #FF5722; }
+    .red { background: #B71C1C; }
+    .pink { background: #E91E63; }
+    .navy { background: #0D47A1; }
+
+    footer {
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 12px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+
+      nav a {
+        border-right: none;
+        border-bottom: 1px solid #444;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="photo.png" alt="Sarkari Result Logo">
+    <h1>SARKARI RESULT</h1>
+    <p>WWW.SARKARIRESULT.COM</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="https://www.sarkariresult.com/latestjob/" target="_blank">Latest Jobs</a>
+    <a href="https://www.sarkariresult.com/result/" target="_blank">Results</a>
+    <a href="https://www.sarkariresult.com/admitcard/" target="_blank">Admit Card</a>
+    <a href="https://www.sarkariresult.com/answerkey/" target="_blank">Answer Key</a>
+    <a href="https://www.sarkariresult.com/syllabus/" target="_blank">Syllabus</a>
+    <a href="#">Search</a>
+    <a href="#">Contact Us</a>
+  </nav>
+
+  <div class="announcement">
+    <h2>Sarkari Result : Latest Jobs, Online Form 2025</h2>
+    <p>Welcome to No. 1 Education Portal Sarkari Result 2025</p>
+  </div>
+
+  <div class="links">
+    <a href="https://results.beup.ac.in/" target="_blank">BEU Result</a> ||
+    <a href="https://jeeadv.ac.in/" target="_blank">JEE Advanced 2025</a> ||
+    <a href="https://bpsconline.bihar.gov.in/candidate/login" target="_blank">BPSC 71th Online Form</a><br>
+    <a href="https://upsconline.gov.in/upsc/OTRP/" target="_blank">UPSC online form 2025</a> ||
+    <a href="#">UPSSSC PET</a> ||
+    <a href="#">UPBED 2025</a>
+  </div>
+
+  <div class="job-buttons">
+  <a href="https://www.sarkariresult.com/upsssc/upsssc-pet-01-2025/" class="green" target="_blank">UPSSSC PET 2025<br>Apply Online</a>
+
+  <a href="https://www.sarkariresult.com/upsc/upsc-cds-ii-2025/" class="blue" target="_blank">UPSC CDS II 2025<br>Apply Online</a>
+
+  <a href="https://www.sarkariresult.com/upsc/upsc-nda-ii-2025/" class="orange" target="_blank">UPSC NDA II 2025<br>Apply Online</a>
+
+  <a href="https://www.sarkariresult.com/2025/upbed-2025/" class="red" target="_blank">UPBED 2025<br>Admit Card</a>
+
+  <a href="https://www.sarkariresult.com/2025/scvtup-iti-admissions/" class="red" target="_blank">UP ITI Admissions<br>Apply Online</a>
+
+  <a href="https://www.sarkariresult.com/bihar/bpsc-71th-exam-2025/" class="green" target="_blank">BPSC 71th Pre<br>Apply Online</a>
+
+  <a href="https://www.sarkariresult.com/2025/upessc-asst-professor-51/" class="pink" target="_blank">UPESSC Asst Professor<br>Apply Online</a>
+
+  <a href="https://www.sarkariresult.com/railway/rrb-ntpc-graduate-05-2024/" class="navy" target="_blank">Railway RRB NTPC<br>Admit Card</a>
+</div>
+
+
+  <footer>
+    Sarkari Result Clone | Built by Priyanshu Patel as a Web Development Practice Project
+
+  </footer>
+
+</body>
+</html>
